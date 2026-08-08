@@ -92,6 +92,9 @@ body{
 }
 .skill-group{
     margin: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 10px;
 }
 .skill-group span{
     background-color: rgb(128, 136, 211);
@@ -219,6 +222,7 @@ footer{
     }
     .skill-group{
         margin: 20px 15px;
+        gap: 16px 10px;
     }
     #experience{
         flex-direction: column;
